@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Page</title>
+    <style>
+        #dynamicText {
+            font-size: 20px;
+            color: black;
+        }
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1> Introduction to JavaScript</h1>
+    <p id="dynamicText">This text will change.</p>
+    
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeStyle()">Change Style</button>
+    <button onclick="toggleElement()">Add/Remove Element</button>
+
+    <div id="extraElement"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
